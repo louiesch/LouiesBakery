@@ -16,7 +16,7 @@ namespace Bakery.Models
 
     public int Price()
     {
-      return 0;
+      return PricePastry;
     }
   }
 }
