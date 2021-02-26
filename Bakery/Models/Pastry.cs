@@ -16,6 +16,10 @@ namespace Bakery.Models
       {
         return num * price;
       }
+      else if (NumPastry % 3 == 0)
+      {
+        return (NumPastry / 3) * 5;
+      }
       else
       {
         return 0;
