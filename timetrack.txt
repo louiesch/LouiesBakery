@@ -1,3 +1,5 @@
 8:23am a little confused on how naming and linking everything up is gonna work with two classes and two test files, so doing some google searching
 9am still unsure if I need 1 or 2 test files. Will stick to using 1
 10am struggling to get the buy 2 get 1 bread logic to work
+11:15am still trying to get the 3 for $5 pastry logic to work
+11:40am working on readme instead so im still doing something. will return to pastry logic after lunch.

@@ -32,16 +32,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void Price_GetPriceOfPastry_Int()
     {
-      Pastry newOrder = new Pastry(1);
-      int result = newOrder.Price();
-      Assert.AreEqual(2, result);
-    }
-    [TestMethod]
-    public void Price_GetPriceOfPastryWithDeal_Int()
-    {
-      Pastry newOrder = new Pastry(3);
-      int result = newOrder.Price();
-      Assert.AreEqual(5, result);
+      Assert.AreEqual(2, Pastry.Price(1));
     }
   }
 }

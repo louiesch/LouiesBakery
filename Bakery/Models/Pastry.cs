@@ -6,17 +6,21 @@ namespace Bakery.Models
   public class Pastry
   {
     public int NumPastry {get; set;}
-    public int PricePastry {get; set;}
 
-    public Pastry(int order)
+    public static int Price(int num)
     {
-      NumPastry = order;
-      PricePastry = order * 2;
-    }
+      int NumPastry = num;
+      int price = 2;
 
-    public int Price()
-    {
-      return PricePastry;
+      if (NumPastry == 1)
+      {
+        return num * price;
+      }
+      else
+      {
+        return 0;
+      }
+
     }
   }
 }
