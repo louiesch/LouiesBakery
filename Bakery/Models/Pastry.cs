@@ -4,6 +4,7 @@ namespace Bakery.Models
   {
     public int NumPastry {get; set;}
 
+    //Pastry: Buy 1 for $2 or 3 for $5.
     public static int Price(int num)
     {
       int NumPastry = num;
