@@ -10,7 +10,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void Price_GetPriceOfBread_Int()
     {
-      Assert.AreEqual(5, Bread.Price(1));
+      Assert.AreEqual(10, Bread.Price(2));
     }
 
     // [TestMethod]
