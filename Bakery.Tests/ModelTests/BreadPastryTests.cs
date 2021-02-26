@@ -29,6 +29,12 @@ namespace Bakery.Tests
   [TestClass]
   public class PastryTests
   {
-    // Test methods go here
+    [TestMethod]
+    public void Price_GetPriceOfPastry_Int()
+    {
+      Pastry newOrder = new Pastry(1);
+      int result = newOrder.Price();
+      Assert.AreEqual(2, result);
+    }
   }
 }
