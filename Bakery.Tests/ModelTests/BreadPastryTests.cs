@@ -10,18 +10,16 @@ namespace Bakery.Tests
     [TestMethod]
     public void Price_GetPriceOfBread_Int()
     {
-      Bread newOrder = new Bread(1);
-      int result = newOrder.Price();
-      Assert.AreEqual(5, result);
+      Assert.AreEqual(5, Bread.Price(1));
     }
 
-    [TestMethod]
-    public void Price_GetPriceOfBreadWithDeal_Int()
-    {
-      Bread newOrder = new Bread(3);
-      int result = newOrder.Price();
-      Assert.AreEqual(10, result);
-    }
+    // [TestMethod]
+    // public void Price_GetPriceOfBreadWithDeal_Int()
+    // {
+    //   Bread newOrder = new Bread(5);
+    //   int result = newOrder.Price();
+    //   Assert.AreEqual(20, result);
+    // }
   }
 
 

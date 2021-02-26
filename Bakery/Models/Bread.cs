@@ -1,29 +1,20 @@
-using System;
-using System.Collections.Generic;
-
 namespace Bakery.Models
 {
   public class Bread
   {
     public int NumBread {get; set;}
-    public int PriceBread {get; set;}
-
-    public Bread(int order)
+    public static int Price(int num)
     {
-      NumBread = order;
-      PriceBread = order * 5;
-    }
+      int NumBread = num;
+      int price = 5;
 
-    public int Price()
-    {
-      if (NumBread % 3 == 0)
+      if (NumBread == 1)
       {
-        int OrderTotal = (NumBread - (NumBread / 3)) * 5;
-        return OrderTotal;
+        return num * price;
       }
       else
       {
-        return PriceBread;
+        return 0;
       }
     }
   }
