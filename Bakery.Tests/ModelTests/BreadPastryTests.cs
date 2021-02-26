@@ -40,5 +40,11 @@ namespace Bakery.Tests
     {
       Assert.AreEqual(5, Pastry.Price(3));
     }
+
+    [TestMethod]
+    public void Price_GetPriceOfLotsOfPastryWithDeal_Int()
+    {
+      Assert.AreEqual(12, Pastry.Price(7));
+    }
   }
 }

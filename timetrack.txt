@@ -3,3 +3,5 @@
 10am struggling to get the buy 2 get 1 bread logic to work
 11:15am still trying to get the 3 for $5 pastry logic to work
 11:40am working on readme instead so im still doing something. will return to pastry logic after lunch.
+12:55 still cant get it to work. Scrapping the logic and trying something else
+1:20 I just cant wrap my head around how to deal with a number of pastries larger than 3!
