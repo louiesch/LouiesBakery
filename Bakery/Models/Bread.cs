@@ -10,12 +10,13 @@ namespace Bakery.Models
 
     public Bread(int order)
     {
-
+      OrderNum = order;
+      OrderCost = order * 5;
     }
 
     public int Cost()
     {
-      return 0;
+      return OrderCost;
     }
   }
 }
