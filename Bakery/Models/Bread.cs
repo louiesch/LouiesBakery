@@ -5,18 +5,26 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    public int OrderNum {get; set;}
-    public int OrderCost {get; set;}
+    public int NumBread {get; set;}
+    public int PriceBread {get; set;}
 
     public Bread(int order)
     {
-      OrderNum = order;
-      OrderCost = order * 5;
+      NumBread = order;
+      PriceBread = order * 5;
     }
 
     public int Price()
     {
-      return OrderCost;
+      if (NumBread % 3 == 0)
+      {
+        int OrderTotal = (NumBread - (NumBread / 3)) * 5;
+        return OrderTotal;
+      }
+      else
+      {
+        return PriceBread;
+      }
     }
   }
 }
