@@ -10,11 +10,7 @@ namespace Bakery.Models
       int NumBread = num;
       int price = 5;
 
-      if (NumBread == 1)
-      {
-        return num * price;
-      }
-      else if (NumBread == 2)
+      if (NumBread == 1 || NumBread == 2)
       {
         return num * price;
       }
