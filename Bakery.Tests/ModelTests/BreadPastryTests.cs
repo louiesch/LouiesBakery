@@ -18,6 +18,12 @@ namespace Bakery.Tests
     {
       Assert.AreEqual(10, Bread.Price(3));
     }
+
+    [TestMethod]
+    public void Price_GetPriceOfLotsOfBreadWithDeal_Int()
+    {
+      Assert.AreEqual(20, Bread.Price(6));
+    }
   }
 
 
