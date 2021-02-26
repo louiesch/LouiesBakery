@@ -23,7 +23,7 @@ namespace BakeryClerk
       Bread newOrder = new Bread(breadInput);
       int breadCost = newOrder.Price();
       //Console.WriteLine(breadCost);
-      Console.WriteLine("Great! So {breadInput} loaves of bread. How about pastries, any of those?");
+      Console.WriteLine($"Great! So {breadInput} loaves of bread. How about pastries, any of those?");
 
 
       
