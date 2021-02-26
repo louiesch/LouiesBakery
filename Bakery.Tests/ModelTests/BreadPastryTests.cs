@@ -8,11 +8,17 @@ namespace Bakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void OrderCost_GetCostOfBread_Int()
+    public void Price_GetPriceOfBread_Int()
     {
       Bread newOrder = new Bread(5);
       int result = newOrder.Cost();
       Assert.AreEqual(25, result);
+    }
+
+    [TestMethod]
+    public void Price_GetPriceOfBreadWithDeal_Int()
+    {
+
     }
   }
 

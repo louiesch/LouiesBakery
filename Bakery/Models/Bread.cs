@@ -14,7 +14,7 @@ namespace Bakery.Models
       OrderCost = order * 5;
     }
 
-    public int Cost()
+    public int Price()
     {
       return OrderCost;
     }
