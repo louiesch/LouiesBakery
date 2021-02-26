@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Bakery;
+using System;
 
 namespace Bakery.Tests
 {
   [TestClass]
-  public class PastryTests
+  public class BreadTests
   {
     // Test methods go here
   }

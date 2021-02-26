@@ -1,0 +1,2 @@
+8:23am a little confused on how naming and linking everything up is gonna work with two classes and two test files, so doing some google searching
+9am still unsure if I need 1 or 2 test files. Will stick to using 1
