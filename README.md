@@ -1,6 +1,6 @@
-# _Pierre's Bakery_
+# _Louie's Bakery_
 
-#### _{Brief description of application}_
+#### _This program is a mock bakery. Come get some bread and pastries!_
 
 #### By _**Louie Schoenknecht**_
 
@@ -13,12 +13,22 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This project was created to practice using C#. The user responds to several prompts to buy bread and pastries, and the program returns the total cost to the user._
 
 ## Setup/Installation Requirements
 
-* _Clone repository from GitHub using: $ git clone https://github.com/louiesch/template-repo_
+* _Clone repository from GitHub to desired location using: $ git clone https://github.com/louiesch/LouiesBakery_
+* _If Node is not yet installed on your machine, do so with:_
+  >run npm install
 * _Navigate to and open project directory in terminal_
+  > cd Bakery.Solution
+* _Once in project directory, open project in code editor_
+  >code .
+* _To build project, in the terminal enter:_
+  >dotnet restore
+* _To run the program, in the terminal enter:_
+  >dotnet run
+* _Respond to the prompts in the command line._
 
 ## Known Bugs
 
