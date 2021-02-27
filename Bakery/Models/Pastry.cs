@@ -3,8 +3,6 @@ namespace Bakery.Models
   public class Pastry
   {
     public int NumPastry {get; set;}
-
-    //Pastry: Buy 1 for $2 or 3 for $5.
     public static int Price(int num)
     {
       int NumPastry = num;
@@ -20,11 +18,11 @@ namespace Bakery.Models
       }
       else if (NumPastry % 3 == 1)
       {
-        return ((NumPastry - 1) / 3) * 5 + price; // for if they buy a multiple of 3 pastries +1
+        return ((NumPastry - 1) / 3) * 5 + price;
       }
       else if (NumPastry % 3 == 2)
       {
-        return ((NumPastry - 1) / 3) * 5 + (price * 2); // for if they buy a multiple of 3 pastries +2
+        return ((NumPastry - 1) / 3) * 5 + (price * 2);
       }
       else
       {

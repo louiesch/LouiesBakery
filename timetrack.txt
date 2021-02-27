@@ -5,5 +5,8 @@
 11:40am working on readme instead so im still doing something. will return to pastry logic after lunch.
 12:55 still cant get it to work. Scrapping the logic and trying something else
 1:20 I just cant wrap my head around how to deal with a number of pastries larger than 3!
+edit: got it.
 
 2:57 I was on to the UI when I realized my math for the bread cost was wrong. Gotta go back now.
+
+Figured I would give credit to what helped me solve the bread logic by giving me the idea to make a variable for the free bread recieved: https://stackoverflow.com/questions/10696556/special-logic-algorithm-in-shopping-cart
