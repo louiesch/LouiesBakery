@@ -8,21 +8,30 @@ namespace Bakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void Price_GetPriceOfBread_Int()
+    public void BreadPrice_GetPriceOfBread_Int()
     {
-      Assert.AreEqual(5, Bread.Price(1));
+      int breadOrder = 1;
+      Bread newBreadOrder = new Bread(breadOrder);
+      int result = newBreadOrder.BreadPrice();
+      Assert.AreEqual(5, result);
     }
 
     [TestMethod]
-    public void Price_GetPriceOfBreadWithDeal_Int()
+    public void BreadPrice_GetPriceOfBreadWithDeal_Int()
     {
-      Assert.AreEqual(10, Bread.Price(3));
+      int breadOrder = 3;
+      Bread newBreadOrder = new Bread(breadOrder);
+      int result = newBreadOrder.BreadPrice();
+      Assert.AreEqual(10, result);
     }
 
     [TestMethod]
-    public void Price_GetPriceOfLotsOfBreadWithDeal_Int()
+    public void BreadPrice_GetPriceOfLotsOfBreadWithDeal_Int()
     {
-      Assert.AreEqual(20, Bread.Price(6));
+      int breadOrder = 6;
+      Bread newBreadOrder = new Bread(breadOrder);
+      int result = newBreadOrder.BreadPrice();
+      Assert.AreEqual(20, result);
     }
   }
 
@@ -32,27 +41,39 @@ namespace Bakery.Tests
   public class PastryTests
   {
     [TestMethod]
-    public void Price_GetPriceOfPastry_Int()
+    public void PastryPrice_GetPriceOfPastry_Int()
     {
-      Assert.AreEqual(2, Pastry.Price(1));
+      int pastryOrder = 1;
+      Pastry newPastryOrder = new Pastry(pastryOrder);
+      int result = newPastryOrder.PastryPrice();
+      Assert.AreEqual(2, result);
     }
 
     [TestMethod]
-    public void Price_GetPriceOfPastryWithDeal_Int()
+    public void PastryPrice_GetPriceOfPastryWithDeal_Int()
     {
-      Assert.AreEqual(5, Pastry.Price(3));
+      int pastryOrder = 3;
+      Pastry newPastryOrder = new Pastry(pastryOrder);
+      int result = newPastryOrder.PastryPrice();
+      Assert.AreEqual(5, result);
     }
 
     [TestMethod]
-    public void Price_GetPricePlusOneWithDeal_Int()
+    public void PastryPrice_GetPricePlusOneWithDeal_Int()
     {
-      Assert.AreEqual(12, Pastry.Price(7));
+      int pastryOrder = 7;
+      Pastry newPastryOrder = new Pastry(pastryOrder);
+      int result = newPastryOrder.PastryPrice();
+      Assert.AreEqual(12, result);
     }
 
     [TestMethod]
-    public void Price_GetPricePlusTwoWithDeal_Int()
+    public void PastryPrice_GetPricePlusTwoWithDeal_Int()
     {
-      Assert.AreEqual(14, Pastry.Price(8));
+      int pastryOrder = 8;
+      Pastry newPastryOrder = new Pastry(pastryOrder);
+      int result = newPastryOrder.PastryPrice();
+      Assert.AreEqual(14, result);
     }
   }
 }

@@ -3,26 +3,26 @@ namespace Bakery.Models
   public class Pastry
   {
     public int NumPastry {get; set;}
-    public static int Price(int num)
+    
+    public Pastry(int numPastry)
     {
-      int NumPastry = num;
-      int price = 2;
-
-      if (NumPastry == 1)
+      NumPastry = numPastry;
+    }
+    
+    public int PastryPrice()
+    {
+      if (NumPastry % 3 == 0)
       {
-        return num * price;
-      }
-      else if (NumPastry % 3 == 0)
-      {
-        return (NumPastry / 3) * 5;
+        int price = (NumPastry / 3) * 5;
+        return price;
       }
       else if (NumPastry % 3 == 1)
       {
-        return ((NumPastry - 1) / 3) * 5 + price;
+        return ((NumPastry - 1) / 3) * 5 + 2;
       }
       else if (NumPastry % 3 == 2)
       {
-        return ((NumPastry - 1) / 3) * 5 + (price * 2);
+        return ((NumPastry - 1) / 3) * 5 + (2 * 2);
       }
       else
       {
