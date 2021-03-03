@@ -27,6 +27,10 @@ _This project was created to practice using C#. The user responds to several pro
 * _To run the program, in the terminal enter:_
   >dotnet run
 * _Respond to the prompts in the command line._
+* _To run tests: Navigate from the root directory to the Bakery.Tests directory. Then in terminal, type_
+  >dotnet restore
+* _Finally, to run the tests, make sure you are still in the Bakery.tests directory and in the terminal type_
+  >dotnet test
 
 ## Known Bugs
 
