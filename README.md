@@ -18,8 +18,6 @@ _This project was created to practice using C#. The user responds to several pro
 ## Setup/Installation Requirements
 
 * _Clone repository from GitHub to desired location using: $ git clone https://github.com/louiesch/LouiesBakery_
-* _If Node is not yet installed on your machine, do so with:_
-  >run npm install
 * _Navigate to and open project directory in terminal_
   > cd Bakery.Solution
 * _Once in project directory, open project in code editor_
